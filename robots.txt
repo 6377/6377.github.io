@@ -1,3 +1,19 @@
+# Notice: Due the major AI companies used so much DRAM and NAND to training trash AI models, 
+# and so many people can't afford new computer because the 
+# skyrocketed RAM ($350-500 USD as of 2026 for 32GB DDR5 RAM) and SSD prices ($300-400 USD as of 2026 for 2TB NVMe Gen 5 SSD) caused by major AI companies.
+# The website's content may not to train any artificial intelligence (AI), machine learning or large language models.
+# As soon of RAM and SSD prices dropped to 
+# Early 2025 level (~$100 USD for 32GB DDR5 RAM and ~$80-100 USD for 2TB NVMe SSD),
+# the Disallow: / of AI bots would be removed.
+
+User-agent: Mediapartners-Google
+Disallow: 
+
+User-agent: *
+Disallow: /search
+Disallow: /share-widget
+Allow: /
+
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot
@@ -6,19 +22,27 @@ User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: Bytespider
 User-agent: CCBot
+User-agent: ChatGLM-Spider
 User-agent: ChatGPT-User
-User-agent: Claude-Web
 User-agent: ClaudeBot
+User-agent: Claude-user
+User-agent: Claude-search
+User-agent: Claude-web
+User-agent: CloudflareBrowserRenderingCrawler
 User-agent: cohere-ai
+User-agent: Deepseek
+User-agent: Deepseek Chat
+User-agent: Deepseekbot
 User-agent: Diffbot
+User-agent: DuckAssistBot
 User-agent: FacebookBot
 User-agent: facebookexternalhit
 User-agent: FriendlyCrawler
 User-agent: Google-Extended
-User-agent: GoogleOther
-User-agent: GoogleOther-Image
-User-agent: GoogleOther-Video
 User-agent: GPTBot
+User-agent: Grok
+User-agent: GrokBot
+User-agent: Grok-DeepSearch
 User-agent: iaskspider/2.0
 User-agent: ICC-Crawler
 User-agent: ImagesiftBot
@@ -38,6 +62,7 @@ User-agent: Sidetrade indexer bot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
+User-agent: xAI-Grok
 User-agent: YouBot
 User-agent: crawler.with.dots
 User-agent: star***crawler
