@@ -6,12 +6,7 @@
 # Early 2025 level (~$100 USD for 32GB DDR5 RAM and ~$80-100 USD for 2TB NVMe SSD),
 # the Disallow: / of AI bots would be removed.
 
-User-agent: Mediapartners-Google
-Disallow: 
-
 User-agent: *
-Disallow: /search
-Disallow: /share-widget
 Allow: /
 
 User-agent: AI2Bot
