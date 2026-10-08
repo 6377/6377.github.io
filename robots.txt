@@ -65,4 +65,4 @@ User-agent: Is this a crawler?
 User-agent: a[mazing]{42}(robot)
 User-agent: 2^32$
 User-agent: curl|sudo bash
-Disallow: /
+Disallow: /busfleets/*
